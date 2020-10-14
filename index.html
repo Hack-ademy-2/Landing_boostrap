@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <a class="navbar-brand" href="#"><i class="fas fa-code fa-2x"></i></a>
+        <h3>CoderPro</h3>
+        <i class="fab fa-github ml-3 blueText"></i>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link mr-5" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <button class="btn px-4 text-white font-weight-bold blueText" type="submit">Sign
+                    up</button>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h1 class="font-weight-bold mt-5" style=" font-size: 50px;">Launch and promote<br> your software project
+                    like a pro</h1>
+                <p class="text-muted mt-4 " style="font-size: 20px;">Designed for entrepreneurial software developers,
+                    CoderPro is the ultimate Bootstrap 4 template for promoting or selling your <span id="texto"></span>
+                </p>
+                <div class="d-inline-flex">
+                    <button type="button" class="btn btn-primary btn-lg ml-2 mr-3 blueText">Get Started Free <i
+                            class="fas fa-arrow-alt-circle-right"></i></button>
+                    <button onclick="clearInterval(tiempo)" type="button" class="btn btn-primary btn-lg border-0"
+                        style="background-color: gray;">View docs <i class="fas fa-arrow-alt-circle-right"></i></button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <img class="imagen" src="./img/flame-the-start-up-launching.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #eee; background-size: cover;">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center font-weight-bold mt-5">Made For Developers</h2>
+                <p class="text-muted text-center mb-5" style="font-size: 18px">From Web Developers to App Developers</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card mb-3 mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 blueText"><i class="fas fa-shapes fa-2x"></i></h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Quick and Simple</h6>
+                        <p class="card-text">List your project's benefit here. You can change the icon above to any of
+                            the 1500+ free FontAwesome icons available.</p>
+                        <a href="#" class="card-link">Learn more →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card mb-3 mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 blueText"><i class="fas fa-angle-double-right fa-2x"></i></h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Lightening Fast</h6>
+                        <p class="card-text">List your project's benefit here. You can change the icon above to any of
+                            the 1500+ free FontAwesome icons available.</p>
+                        <a href="#" class="card-link blueText">Learn more →</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card mb-3 mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 blueText"><i class="fas fa-wrench fa-2x"></i></h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Extendable</h6>
+                        <p class="card-text">List your project's benefit here. You can change the icon above to any of
+                            the 1500+ free FontAwesome icons available.</p>
+                        <a href="#" class="card-link blueText">Learn more →</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card mb-3 mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 blueText"><i class="fas fa-book fa-2x"></i></h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Fully Documented</h6>
+                        <p class="card-text">List your project's benefit here. You can change the icon above to any of
+                            the 1500+ free FontAwesome icons available.</p>
+                        <a href="#" class="card-link blueText">Learn more →</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="class text-center mb-5">
+                    <button type="button" class="btn btn-link blueText">View All Features <i
+                            class="fas fa-arrow-circle-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center font-weight-bold mt-5">How Does It Work</h2>
+                <p class="text-muted text-center mb-5" style="font-size: 18px">You're only a few simple steps away</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-4">
+                <img class="imagenLineal" src="./img/cloud-2044822_640.png" alt="">
+            </div>
+            <div class="col-12 col-md-4">
+                <img class="imagenLineal" src="./img/web-site-1706400_640.png" alt="">
+            </div>
+            <div class="col-12 col-md-4">
+                <img class="imagenLineal" src="./img/cart-1956097_640.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="d-inline-flex mt-5 ml-5">
+                    <p class="rounded-circle px-3"
+                        style="background-color:rgb(198, 237, 238);font-size: 30px;">1</p>
+                    <h4 class="mt-2">Download</h4>
+                </div>
+                   <p class="text-muted">The illustrations used in this section are from <a href="#">Streamline's free illustrations pack</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p> 
+                
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="d-inline-flex mt-5 ml-5">
+                    <p class="rounded-circle px-3"
+                        style="background-color:rgb(198, 237, 238);font-size: 30px;">2</p>
+                    <h4 class="mt-2">Customize</h4>
+                </div>
+                <p class="text-muted">The illustrations used in this section are from <a href="#">Streamline's free illustrations pack</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p> 
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="d-inline-flex mt-5 ml-5">
+                    <p class="rounded-circle px-3"
+                        style="background-color: rgb(198, 237, 238);font-size: 30px;">3</p>
+                    <h4 class="mt-2">Launch</h4>
+                </div>
+                <p class="text-muted">The illustrations used in this section are from <a href="#">Streamline's free illustrations pack</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p> 
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script>
+            var texto = "Open Source Project.";
+            let i = 0;
+
+            function escribeTexto() {
+                document.getElementById("texto").innerText = texto.slice(0, i);
+                document.getElementById("texto").classList.add("textoJS");
+                i++;
+                if (i > texto.length) {
+                    i = 0;
+                }
+            }
+
+            var tiempo = setInterval(escribeTexto, 100);
+        </script>
+</body>
+
+</html>
